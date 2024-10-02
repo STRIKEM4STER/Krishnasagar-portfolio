@@ -1,0 +1,203 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: "Cormorant Garamond", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    background-color: black;
+    /* height: 100vh; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* navbar */
+#logo{
+    width: 130px;
+    height: 130px;
+}
+
+#navName {
+    font-size: 30px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(40deg, white, #1E90FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#navbarSupportedContent a{   
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    padding: 10px 15px; 
+    border-radius: 50px; 
+    display: inline-block;
+}
+
+#navbarSupportedContent a:hover {
+    color: #1E90FF; 
+    background-color: white; 
+}
+
+ul li{
+    font-size: 20px;
+    font-weight: 900;
+   
+}
+
+.navbar-toggler {
+    background-color:#1E90FF; 
+    border: none;
+}
+
+/* tagline */
+#tagline{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: white;
+}
+
+.tagname{
+    background: -webkit-linear-gradient(180deg, white, #1E90FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* about */
+#about{
+    color: white;
+    margin-top: 320px;
+    background-image: linear-gradient(to bottom, black, #1E90FF);
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+#about p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+#dp {
+    width: 400px; 
+    height: auto; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.rounded-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+/* project */
+#project {
+    background-color: #1E90FF; 
+    margin-top: 0;
+}
+
+#project .card {
+    background-color: black; 
+    color: white; 
+    border: none; 
+}
+
+.card {
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+.card video {
+    border-radius: 10px 10px 0 0;
+}
+
+#project .btn-light {
+    background-color: #1E90FF; 
+    color: black; 
+    border-radius: 50px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+#project .btn-light:hover {
+    background-color: white; 
+    color: #1E90FF;
+}
+
+
+/* contact */
+#contact{
+    background-image:  linear-gradient(to bottom,#1E90FF, black);
+    margin-top: -1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.social-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.social-links i {
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+  
+.social-links i:hover {
+    transform: scale(1.1);
+    color: black;
+}
+  
+.username {
+    font-size: 1.5rem;
+    color:white;
+}
+  
+  #contact h5 {
+    margin-bottom: 20px;
+}
+  
+/* footer */
+#social-footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#social-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact .btn-light {
+    background-color: white; 
+    color: #1E90FF; 
+    border-radius: 50px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }  
+
+#contact .btn-light:hover {
+    background-color: #1E90FF; 
+    color: black;
+}
+
+
+
+
+    
+    
